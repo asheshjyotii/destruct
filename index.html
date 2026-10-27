@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts: handwritten script for the heading, Roboto for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .font-script { font-family: "Caveat", cursive; }
+        .font-body   { font-family: "Roboto", sans-serif; }
+    </style>
+
+    <title>destruct</title>
+</head>
+
+<body class="m-0">
+    <main class="relative h-dvh overflow-hidden bg-[#F3F2CF]">
+
+        <!-- Logo -->
+        <div class="absolute left-5 top-4 z-20 flex flex-col items-center md:left-8">
+            <h1 class="font-bold font-mono">destruct</h1>
+        </div>
+    
+        <!-- Heading and subtitle -->
+        <div class="absolute left-5 top-[23%] z-10 md:left-[20%]">
+            <h1 class="font-script text-5xl leading-[0.9] tracking-tight text-gray-900 md:text-8xl">
+                <span class="block">Learn from the</span>
+                <span class="block font-bold text-red-500">Masters</span>
+            </h1>
+    
+            <p class="mt-3 max-w-[18rem] text-sm leading-4 text-[#2d2c2b9c] font-[Inter]
+                      md:max-w-sm md:text-lg md:leading-5">
+                pick a github project you care about....and learn
+                to build it from scratch.
+            </p>
+        </div>
+    
+        <!-- Artwork -->
+        <img
+            class="absolute inset-x-0 top-96 z-0 h-[48dvh] w-full object-cover object-[80%_100%]
+                   md:bottom-auto md:top-57 md:h-auto md:min-h-[32%]"
+            src="./public/lions_2.png"
+            alt="A person standing among lions"
+        >
+    
+    </main>
+</body>
+</html>
